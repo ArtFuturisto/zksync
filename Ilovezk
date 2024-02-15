@@ -1,0 +1,4 @@
+def random_phone_number():
+    return f"+1-{random.randint(100, 999)}-{random.randint(100, 999)}-{random.randint(1000, 9999)}"
+
+print("Random Phone Number:", random_phone_number())
